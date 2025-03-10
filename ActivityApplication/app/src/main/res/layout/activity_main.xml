@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#004D5E"
+    android:gravity="center"
+    android:padding="20dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:text="Activity A"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp"
+        android:layout_margin="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnStartB"
+        android:text="Start Activity B"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFA500"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnStartC"
+        android:text="Start Activity C"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFA500"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/btnDialog"
+        android:text="Dialog"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FFA500"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textCounter"
+        android:text="Thread Counter: 0000"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/textOnRestartCount"
+        android:text="onRestart() count: 0"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#FFA500"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"/>
+
+    <Button
+        android:id="@+id/btnClose"
+        android:text="Close App"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#FF0000"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
